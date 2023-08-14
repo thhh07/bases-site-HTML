@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Nome Aba</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">Titulo</h1>
+                <ul class="nav-list">
+                    <li><a href="#">Página Inicial</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <style>
+        /* Reset de Estilos */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos Globais */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos do Cabeçalho */
+.navbar {
+    background-color: #fff;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos das Seções */
+.about, .services {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilos do Rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+    </style>
+
+    <main class="container">
+        <section class="about">
+            <h2>Sobre Nós</h2>
+            <p>Bem-vindo ao nosso site! Somos uma empresa dedicada...</p>
+        </section>
+
+        <section class="services">
+            <h2>Serviços</h2>
+            <ul class="service-list">
+                <li>Serviço 1</li>
+                <li>Serviço 2</li>
+                <li>Serviço 3</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
